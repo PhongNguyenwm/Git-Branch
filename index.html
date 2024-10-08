@@ -17,5 +17,20 @@
     <!-- git branch -c [tên nhánh muốn tạo] -->
     <!-- chuyển nhánh: git checkout [tên nhanh muốn chuyển] -->
     <!-- !Tạo nhánh và chuyển hẳn qua nhánh mới: git checkout -b [tên nhánh mới] -->
+
+    <h2>delete branch</h2>
+    <!-- git branch -d [tên nhánh muốn xoá] -->
+    <!-- 
+        *Để xoá luôn nhánh ở repo git ta dùng lệnh:
+        git push -d origin [tên nhánh muốn xoá]
+     -->
+
+    <h2>Push code từ branh lên git</h2>
+    <!-- 
+        *git push -u origin [tên nhánh con đang đứng]
+        *git push --set-upstream origin [tên nhánh con đang đứng]
+        !Tham số -u là viết tắt của --set-upstream: thường được sử dụng cho lần đầu tiên, git sẽ tự động thiết lập 1 mối quan hệ theo dõi giữa nhánh cục bộ(local branch) và nhánh từ xa(remote branch).
+        -Từ lần thứ 2, đứng tại nhánh chỉ cần nhập lệnh git push
+    -->
   </body>
 </html>
